@@ -278,7 +278,7 @@ const Portafolio = () => {
                       <p className="text-gray-400">{edu.period}</p>
                     </div>
                     <div className="flex-shrink-0">
-                      <img src={edu.logo} alt={edu.institucion} className="h-20 w-auto object-contain self-start rounded-xl"/>
+                      <img src={`${import.meta.env.BASE_URL}edu.logo`} alt={edu.institucion} className="h-20 w-auto object-contain self-start rounded-xl"/>
                     </div>
                   </div>
                 </ScrollReveal>
