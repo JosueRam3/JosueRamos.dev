@@ -26,28 +26,28 @@ const Portafolio = () => {
 
   const education = [
     {
-      logo: "/UTP_logo.webp",
+      logo: "./UTP_logo.webp",
       institucion: "Universidad Tecnológica del Perú",
       estudios: "Ingeniería de Sistemas",
       period: "2018 - 2024",
       type: "superior"
     },
     {
-      logo: "/Systematic_logo.webp",
+      logo: "./Systematic_logo.webp",
       institucion: "SYSTEMATIC",
       estudios: "Diseño gráfico con CorelDraw",
       period: "Enero 2021 - Marzo 2021",
       type: "tecnica"
     },
     {
-      logo: "/ITEC_logo.webp",
+      logo: "./ITEC_logo.webp",
       institucion: "ITEC",
       estudios: "Modelamiento y diseño de Base de datos",
       period: "Diciembre 2023 - Marzo 2024",
       type: "tecnica"
     },
     {
-      logo: "/IPN_logo.webp",
+      logo: "./IPN_logo.webp",
       institucion: "Instituto Peruano de Negocios",
       estudios: "Microsoft Power BI",
       period: "Enero 2026 - Febrero 2026",
@@ -56,9 +56,9 @@ const Portafolio = () => {
   ];
 
   const certifications = [
-    { name: "Scrum Fundamentals", institucion: "SCRUMSTUDY", status: "Certificado", link: "/CERTIFICADO-SCRUM.pdf" },
-    { name: "Microsoft Power BI", institucion: "IPN", status: "Certificado", link: "/certificacionIPN.pdf" },
-    { name: "Corel Draw", institucion: "Systematic", status: "Certificado", link: "/CERTIFICADO-COREL-DRAW.pdf" },
+    { name: "Scrum Fundamentals", institucion: "SCRUMSTUDY", status: "Certificado", link: "./CERTIFICADO-SCRUM.pdf" },
+    { name: "Microsoft Power BI", institucion: "IPN", status: "Certificado", link: "./certificacionIPN.pdf" },
+    { name: "Corel Draw", institucion: "Systematic", status: "Certificado", link: "./CERTIFICADO-COREL-DRAW.pdf" },
     { name: "Ciberseguridad: Ethical Hacking", institucion: "OTI - UNI", status: "En curso" },
     { name: "Odoo Funcional y Técnico", institucion: "OTI - UNI", status: "En curso" },
     { name: "Machine Learning con Python + IA", institucion: "OTI - UNI", status: "En curso" },
@@ -76,7 +76,7 @@ const Portafolio = () => {
         "Desarrollo de campañas publicitarias"
       ],
       hasCertificate: true,
-      pdfCertificado: "/AM-CODE.pdf"
+      pdfCertificado: "./AM-CODE.pdf"
     },
     {
       company: "POP CAPITAL GROUP E.I.R.L.",
@@ -88,7 +88,7 @@ const Portafolio = () => {
         "Soporte técnico y documentación de sistemas"
       ],
       hasCertificate: true,
-      pdfCertificado: "/POP-Capital.pdf"
+      pdfCertificado: "./POP-Capital.pdf"
     },
     {
       company: "I.E. SAN JUAN",
@@ -125,28 +125,28 @@ const Portafolio = () => {
       description: "Sitio web para cotización y ventas de bombas y artefactos industriales. Desarrollado en WordPress con Elementor.",
       tech: ["WordPress", "Elementor", "PHP"],
       link: "https://mri-pe.com/",
-      image: "/MRI-PE.webp"
+      image: "./MRI-PE.webp"
     },
     {
       name: "Madelly.pe",
       description: "Sitio web para venta de ropa femenina. Desarrollado en WordPress con Elementor y WooCommerce.",
       tech: ["WordPress", "Elementor", "PHP", "WooCommerce"],
       link: "https://madelly.pe",
-      image: "/Madelly.webp"
+      image: "./Madelly.webp"
     },
     {
       name: "Bodapass.com",
       description: "Página web destinada a la creación de invitaciones digitales para bodas. Desarrollado con plantillas de WordPress y editado con Elementor.",
       tech: ["WordPress", "Elementor", "PHP"],
       link: "https://bodapass.com",
-      image: "/Bodapass.webp"
+      image: "./Bodapass.webp"
     },
     {
       name: "Worki360.com",
       description: "Creación de artículos para la ERP Worki360, enfocadas en el mejoramiento SEO. Desarrollado con JavaScript y Git.",
       tech: ["Git", "JavaScript", "SEO"],
       link: "https://www.worki360.com/",
-      image: "/Worki360.webp"
+      image: "./Worki360.webp"
     }
   ];
 
